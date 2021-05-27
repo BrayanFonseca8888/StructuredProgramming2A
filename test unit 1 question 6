@@ -1,0 +1,21 @@
+#include <stdio.h> 
+/* height and width of a rectangle in inches */
+/*Brayan Fonseca test unit 1*/
+int width;          
+int height;         
+
+int area;           
+int perimeter;      
+
+int main() {
+	height = 4;
+	width = 8;
+
+    perimeter = 2*(height + width);
+	printf("Perimeter of the rectangle = %d inches\n", perimeter);
+	
+	area = height * width;
+	printf("Area of the rectangle = %d square inches\n", area);
+
+return(0);
+}
