@@ -1,0 +1,13 @@
+//Are you old or young 
+#include<iostream>
+using namespace std;
+main(){
+int edad; 
+cout<<put your age,please; cin>>age
+if(age>=18)
+cout<<"welcome, is good to see you";
+{
+else if(age<18){
+cout<<"sorry we can't let you in";
+}
+}
